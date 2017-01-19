@@ -314,9 +314,9 @@ elseif ($_GET['page'] == 18):
 <form action="index.php">
 	<label>Vad gör du/ni nu?</label><br>
 	<input type="radio" name="page" value="16" id="fight">
-	<label for="fight">Stanna och slåss</label><br>
+	<label for="fight"></label><br>
 	<input type="radio" name="page" value="17" id="flight">
-	<label for="flight">Fly</label><br>
+	<label for="flight"></label><br>
 	<input type="hidden" name="player_name" value="<?= $_GET['player_name'] ?>">
 	<input type="submit" value="Skicka">
 </form>
